@@ -1,0 +1,311 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.6",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "85b44817de14958f2e3ad094bdfea737",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "82c3aaf3309f3f797ce2e1532a4c10c9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "87af157076d44ab0c6fca4834d205dc3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "c05aec83a11d16fe1d33c0d853dd373f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "648ecb4b8501527cf298c3e9415e06bb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"1-fetch-egfr-ligands-with-get\">1. Fetch EGFR ligands with GET</h2>\n<span class=\"paragraph\">The first live request starts from the biological target:</span>\n<ul>\n<li>Endpoint: <code>/uniprot/ligands/P00533</code></li>\n<li>Method: <code>GET</code></li>\n<li>Meaning: ligands observed for <strong>EGFR</strong> in PDBe, together with the PDB entries\n  where they appear.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "44294fea10bf33b8884ba4db9d0b7e78",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "e096036ebe5cfabdbf011cfecd194234",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "38618ef32646dbc15aa9b7f8335f4dc6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "c9f13830a4dff7839a9a2ef62630890f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "f4cb85e08a15cf57fbaf36d61f40139a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "5c581b147f58f477618f1c086d84a4c7",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "25b426427924c02f8ec00fb9e6e76b75",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "d4084d36aa389e686ea781f4093e4b95",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "82b935552d44fa2572df1e8be0147eec",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "d5a7c6c0f5cfe9ad48aec1531c6f1c4d",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "58830f212d61eaa006deaa65ab115bae",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "7062c888e12ee2a5a54b62ac120dcf95",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "9558eb103c3e4e8aab4973526c60748d",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "428028e049bf512e9424e7c9d2187184",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "05449d6e8c002b1cd44035c0dbe8b5c3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "b3b23366e11ba33fe7bbcb529bd1b04c",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "d0df732b72a0c5841c60bf71b6c8784d",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "f19b3805d4fb73f37ba9534bdcff55a1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "838a907ccf9a3af7928418d8ae7902d5",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "ddb9615fa5ffce44bd9182b9d5cd1433",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "6e34fd873e14e7ea6ea60ed662fc60b4",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "e17e41d83e9351477eacdbaae1974e66",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "3e6e83fbb356eee285c1ffe9fb9bd444",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "c236b73adead17f481fa83a960ae6a70",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "e31dc1482308d5200cbd287998b525da",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/vnd.vegalite.v6+json": "{\n  \"$schema\": \"https://vega.github.io/schema/vega-lite/v6.4.1.json\",\n  \"config\": {\n    \"view\": {\n      \"continuousHeight\": 300,\n      \"continuousWidth\": 300\n    }\n  },\n  \"data\": {\n    \"name\": \"data-d1c7e0a1117f9437abbf146e720e8362\"\n  },\n  \"datasets\": {\n    \"data-d1c7e0a1117f9437abbf146e720e8362\": [\n      {\n        \"ligand_count\": 4,\n        \"ligand_ids\": \"CIT, DTT, PE5, SIN\",\n        \"ligand_names\": \"2,3-DIHYDROXY-1,4-DITHIOBUTANE, 3,6,9,12,15,18,21,24-OCTAOXAHEXACOSAN-1-OL, CITRIC ACID, SUCCINIC ACID\",\n        \"max_single_ligand_pdb_count\": 8,\n        \"murcko_scaffold_group\": \"No scaffold assigned\",\n        \"total_pdb_entry_count\": 15\n      },\n      {\n        \"ligand_count\": 3,\n        \"ligand_ids\": \"ADP, AMP, ATP\",\n        \"ligand_names\": \"ADENOSINE MONOPHOSPHATE, ADENOSINE-5'-DIPHOSPHATE, ADENOSINE-5'-TRIPHOSPHATE\",\n        \"max_single_ligand_pdb_count\": 3,\n        \"murcko_scaffold_group\": \"c1ncc2ncn([C@H]3CCCO3)c2n1\",\n        \"total_pdb_entry_count\": 5\n      },\n      {\n        \"ligand_count\": 2,\n        \"ligand_ids\": \"FUC, FUL\",\n        \"ligand_names\": \"alpha-L-fucopyranose, beta-L-fucopyranose\",\n        \"max_single_ligand_pdb_count\": 3,\n        \"murcko_scaffold_group\": \"C1CCOCC1\",\n        \"total_pdb_entry_count\": 4\n      },\n      {\n        \"ligand_count\": 2,\n        \"ligand_ids\": \"AQ4, DJK\",\n        \"ligand_names\": \"N-[4-(3-BROMO-PHENYLAMINO)-QUINAZOLIN-6-YL]-ACRYLAMIDE, [6,7-BIS(2-METHOXY-ETHOXY)QUINAZOLINE-4-YL]-(3-ETHYNYLPHENYL)AMINE\",\n        \"max_single_ligand_pdb_count\": 2,\n        \"murcko_scaffold_group\": \"c1ccc(Nc2ncnc3ccccc23)cc1\",\n        \"total_pdb_entry_count\": 4\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"MES\",\n        \"ligand_names\": \"2-(N-MORPHOLINO)-ETHANESULFONIC ACID\",\n        \"max_single_ligand_pdb_count\": 18,\n        \"murcko_scaffold_group\": \"C1COCC[NH2+]1\",\n        \"total_pdb_entry_count\": 18\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"YY3\",\n        \"ligand_names\": \"N-(2-{[2-(dimethylamino)ethyl](methyl)amino}-4-methoxy-5-{[4-(1-methyl-1H-indol-3-yl)pyrimidin-2-yl]amino}phenyl)prop-2-enamide\",\n        \"max_single_ligand_pdb_count\": 10,\n        \"murcko_scaffold_group\": \"c1ccc(Nc2nccc(-c3c[nH]c4ccccc34)n2)cc1\",\n        \"total_pdb_entry_count\": 10\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"IRE\",\n        \"ligand_names\": \"Gefitinib\",\n        \"max_single_ligand_pdb_count\": 6,\n        \"murcko_scaffold_group\": \"c1ccc(Nc2ncnc3ccc(OCCCN4CCOCC4)cc23)cc1\",\n        \"total_pdb_entry_count\": 6\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"AEE\",\n        \"ligand_names\": \"6-{4-[(4-ETHYLPIPERAZIN-1-YL)METHYL]PHENYL}-N-[(1R)-1-PHENYLETHYL]-7H-PYRROLO[2,3-D]PYRIMIDIN-4-AMINE\",\n        \"max_single_ligand_pdb_count\": 4,\n        \"murcko_scaffold_group\": \"c1ccc(CNc2ncnc3[nH]c(-c4ccc(CN5CCNCC5)cc4)cc23)cc1\",\n        \"total_pdb_entry_count\": 4\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"6GY\",\n        \"ligand_names\": \"5-chloro-N~4~-[2-(dimethylphosphoryl)phenyl]-N~2~-{2-methoxy-4-[4-(4-methylpiperazin-1-yl)piperidin-1-yl]phenyl}pyrimidine-2,4-diamine\",\n        \"max_single_ligand_pdb_count\": 3,\n        \"murcko_scaffold_group\": \"c1ccc(Nc2ccnc(Nc3ccc(N4CCC(N5CCNCC5)CC4)cc3)n2)cc1\",\n        \"total_pdb_entry_count\": 3\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"1C9\",\n        \"ligand_names\": \"(2E)-N-{4-[(3-chloro-4-fluorophenyl)amino]-7-methoxyquinazolin-6-yl}-4-(piperidin-1-yl)but-2-enamide\",\n        \"max_single_ligand_pdb_count\": 2,\n        \"murcko_scaffold_group\": \"O=C(/C=C/CN1CCCCC1)Nc1ccc2ncnc(Nc3ccccc3)c2c1\",\n        \"total_pdb_entry_count\": 2\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"85X\",\n        \"ligand_names\": \"12-(2-Cyanoethyl)-6,7,12,13-tetrahydro-13-methyl-5-oxo-5H-indolo[2,3-a]pyrrolo[3,4-c]carbazole\",\n        \"max_single_ligand_pdb_count\": 2,\n        \"murcko_scaffold_group\": \"O=C1NCc2c1c1c3ccccc3[nH]c1c1[nH]c3ccccc3c21\",\n        \"total_pdb_entry_count\": 2\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"8RC\",\n        \"ligand_names\": \"6-ethyl-3-[[4-[4-(4-methylpiperazin-1-yl)piperidin-1-yl]phenyl]amino]-5-[(3R)-1-prop-2-enoylpyrrolidin-3-yl]oxy-pyrazin\\ne-2-carboxamide\",\n        \"max_single_ligand_pdb_count\": 2,\n        \"murcko_scaffold_group\": \"c1cc(N2CCC(N3CCNCC3)CC2)ccc1Nc1cncc(O[C@@H]2CCNC2)n1\",\n        \"total_pdb_entry_count\": 2\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"8JC\",\n        \"ligand_names\": \"N-[3-[[2-[[4-(4-ethanoylpiperazin-1-yl)-2-methoxy-phenyl]amino]-5-(trifluoromethyl)pyrimidin-4-yl]amino]phenyl]prop-2-enamide\",\n        \"max_single_ligand_pdb_count\": 2,\n        \"murcko_scaffold_group\": \"c1ccc(Nc2ccnc(Nc3ccc(N4CCNCC4)cc3)n2)cc1\",\n        \"total_pdb_entry_count\": 2\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"X9H\",\n        \"ligand_names\": \"N-[(5P,8S,10R)-4-amino-6-methyl-5-(quinolin-3-yl)-8,9-dihydropyrimido[5,4-b]indolizin-8-yl]prop-2-enamide\",\n        \"max_single_ligand_pdb_count\": 1,\n        \"murcko_scaffold_group\": \"C1=Cc2c(-c3cnc4ccccc4c3)c3cncnc3n2CC1\",\n        \"total_pdb_entry_count\": 1\n      },\n      {\n        \"ligand_count\": 1,\n        \"ligand_ids\": \"A1CEL\",\n        \"ligand_names\": \"4-(3-chloro-2-fluoroanilino)-7-methoxyquinazolin-6-yl (2R)-2,4-dimethylpiperazine-1-carboxylate\",\n        \"max_single_ligand_pdb_count\": 1,\n        \"murcko_scaffold_group\": \"O=C(Oc1ccc2ncnc(Nc3ccccc3)c2c1)N1CCNCC1\",\n        \"total_pdb_entry_count\": 1\n      }\n    ]\n  },\n  \"encoding\": {\n    \"tooltip\": [\n      {\n        \"field\": \"murcko_scaffold_group\",\n        \"title\": \"Scaffold\",\n        \"type\": \"nominal\"\n      },\n      {\n        \"field\": \"ligand_count\",\n        \"title\": \"Ligands\",\n        \"type\": \"quantitative\"\n      },\n      {\n        \"field\": \"total_pdb_entry_count\",\n        \"title\": \"Total PDB entries\",\n        \"type\": \"quantitative\"\n      },\n      {\n        \"field\": \"ligand_ids\",\n        \"title\": \"Ligand IDs\",\n        \"type\": \"nominal\"\n      }\n    ],\n    \"x\": {\n      \"field\": \"ligand_count\",\n      \"title\": \"Number of ligands in scaffold group\",\n      \"type\": \"quantitative\"\n    },\n    \"y\": {\n      \"field\": \"murcko_scaffold_group\",\n      \"sort\": \"-x\",\n      \"title\": \"Murcko scaffold\",\n      \"type\": \"nominal\"\n    }\n  },\n  \"height\": 420,\n  \"mark\": {\n    \"color\": \"#0f766e\",\n    \"cornerRadiusTopLeft\": 4,\n    \"cornerRadiusTopRight\": 4,\n    \"type\": \"bar\"\n  },\n  \"title\": \"Murcko scaffold groups among DrugBank-mapped EGFR ligands\",\n  \"usermeta\": {\n    \"embedOptions\": {}\n  }\n}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "6746621ee6ad9a34f829b0d9e03384f7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='NCOB-0' random-id='63cb0397-a91a-3a1d-816f-075fd3a52b4e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;No scaffold assigned&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:4,&#92;&quot;total_pdb_entry_count&#92;&quot;:15,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:8,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;CIT, DTT, PE5, SIN&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;2,3-DIHYDROXY-1,4-DITHIOBUTANE, 3,6,9,12,15,18,21,24-OCTAOXAHEXACOSAN-1-OL, CITRIC ACID, SUCCINIC ACID&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ncc2ncn([C@H]3CCCO3)c2n1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:3,&#92;&quot;total_pdb_entry_count&#92;&quot;:5,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:3,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;ADP, AMP, ATP&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;ADENOSINE MONOPHOSPHATE, ADENOSINE-5&#x27;-DIPHOSPHATE, ADENOSINE-5&#x27;-TRIPHOSPHATE&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;C1CCOCC1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:2,&#92;&quot;total_pdb_entry_count&#92;&quot;:4,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:3,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;FUC, FUL&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;alpha-L-fucopyranose, beta-L-fucopyranose&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ccc(Nc2ncnc3ccccc23)cc1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:2,&#92;&quot;total_pdb_entry_count&#92;&quot;:4,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:2,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;AQ4, DJK&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;N-[4-(3-BROMO-PHENYLAMINO)-QUINAZOLIN-6-YL]-ACRYLAMIDE, [6,7-BIS(2-METHOXY-ETHOXY)QUINAZOLINE-4-YL]-(3-ETHYNYLPHENYL)AMINE&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;C1COCC[NH2+]1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:1,&#92;&quot;total_pdb_entry_count&#92;&quot;:18,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:18,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;MES&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;2-(N-MORPHOLINO)-ETHANESULFONIC ACID&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ccc(Nc2nccc(-c3c[nH]c4ccccc34)n2)cc1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:1,&#92;&quot;total_pdb_entry_count&#92;&quot;:10,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:10,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;YY3&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;N-(2-{[2-(dimethylamino)ethyl](methyl)amino}-4-methoxy-5-{[4-(1-methyl-1H-indol-3-yl)pyrimidin-2-yl]amino}phenyl)prop-2-enamide&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ccc(Nc2ncnc3ccc(OCCCN4CCOCC4)cc23)cc1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:1,&#92;&quot;total_pdb_entry_count&#92;&quot;:6,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:6,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;IRE&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;Gefitinib&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ccc(CNc2ncnc3[nH]c(-c4ccc(CN5CCNCC5)cc4)cc23)cc1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:1,&#92;&quot;total_pdb_entry_count&#92;&quot;:4,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:4,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;AEE&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;6-{4-[(4-ETHYLPIPERAZIN-1-YL)METHYL]PHENYL}-N-[(1R)-1-PHENYLETHYL]-7H-PYRROLO[2,3-D]PYRIMIDIN-4-AMINE&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ccc(Nc2ccnc(Nc3ccc(N4CCC(N5CCNCC5)CC4)cc3)n2)cc1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:1,&#92;&quot;total_pdb_entry_count&#92;&quot;:3,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:3,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;6GY&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;5-chloro-N~4~-[2-(dimethylphosphoryl)phenyl]-N~2~-{2-methoxy-4-[4-(4-methylpiperazin-1-yl)piperidin-1-yl]phenyl}pyrimidine-2,4-diamine&#92;&quot;},{&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;O=C(/C=C/CN1CCCCC1)Nc1ccc2ncnc(Nc3ccccc3)c2c1&#92;&quot;,&#92;&quot;ligand_count&#92;&quot;:1,&#92;&quot;total_pdb_entry_count&#92;&quot;:2,&#92;&quot;max_single_ligand_pdb_count&#92;&quot;:2,&#92;&quot;ligand_ids&#92;&quot;:&#92;&quot;1C9&#92;&quot;,&#92;&quot;ligand_names&#92;&quot;:&#92;&quot;(2E)-N-{4-[(3-chloro-4-fluorophenyl)amino]-7-methoxyquinazolin-6-yl}-4-(piperidin-1-yl)but-2-enamide&#92;&quot;}]&quot;' data-total-rows='22' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;murcko_scaffold_group&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ligand_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_pdb_entry_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;max_single_ligand_pdb_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;ligand_ids&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ligand_names&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "6c4f680b0873cd0f0b2daabbe45d7e63",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='aqbW-0' random-id='b23e8efa-fdde-3709-ff41-1f620edbf1f4'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;PE5&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;3,6,9,12,15,18,21,24-OCTAOXAHEXACOSAN-1-OL&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB03556&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:8,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;No scaffold assigned&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:4,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:15},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;CIT&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;CITRIC ACID&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB04272&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:5,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;No scaffold assigned&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:4,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:15},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;DTT&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;2,3-DIHYDROXY-1,4-DITHIOBUTANE&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB04447&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:1,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;No scaffold assigned&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:4,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:15},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;SIN&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;SUCCINIC ACID&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB00139&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:1,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;No scaffold assigned&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:4,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:15},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;ADP&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;ADENOSINE-5&#x27;-DIPHOSPHATE&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB16833&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:3,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ncc2ncn([C@H]3CCCO3)c2n1&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:3,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:5},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;AMP&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;ADENOSINE MONOPHOSPHATE&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB00131&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:1,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ncc2ncn([C@H]3CCCO3)c2n1&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:3,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:5},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;ATP&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;ADENOSINE-5&#x27;-TRIPHOSPHATE&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB00171&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:1,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ncc2ncn([C@H]3CCCO3)c2n1&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:3,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:5},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;FUC&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;alpha-L-fucopyranose&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB04473&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:3,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;C1CCOCC1&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:2,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:4},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;AQ4&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;[6,7-BIS(2-METHOXY-ETHOXY)QUINAZOLINE-4-YL]-(3-ETHYNYLPHENYL)AMINE&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB00530&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:2,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ccc(Nc2ncnc3ccccc23)cc1&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:2,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:4},{&#92;&quot;ligand_id&#92;&quot;:&#92;&quot;DJK&#92;&quot;,&#92;&quot;compound_name&#92;&quot;:&#92;&quot;N-[4-(3-BROMO-PHENYLAMINO)-QUINAZOLIN-6-YL]-ACRYLAMIDE&#92;&quot;,&#92;&quot;drugbank_ids&#92;&quot;:&#92;&quot;DB07662&#92;&quot;,&#92;&quot;pdb_entry_count&#92;&quot;:2,&#92;&quot;murcko_scaffold_group&#92;&quot;:&#92;&quot;c1ccc(Nc2ncnc3ccccc23)cc1&#92;&quot;,&#92;&quot;murcko_scaffold_member_count&#92;&quot;:2,&#92;&quot;murcko_scaffold_total_pdb_entries&#92;&quot;:4}]&quot;' data-total-rows='29' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;ligand_id&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;compound_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;drugbank_ids&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;pdb_entry_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;murcko_scaffold_group&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;murcko_scaffold_member_count&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;murcko_scaffold_total_pdb_entries&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "233443961e5a9eafb10b67cac230da79",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"takeaways\">Takeaways</h2>\n<ul>\n<li>The biological entry point is a target-centric <strong>GET</strong> request:\n  <code>/uniprot/ligands/P00533</code> for <strong>EGFR</strong>.</li>\n<li>Trying to batch too many ligand identifiers into a <strong>GET</strong> path can fail with\n  <strong><code>414 Request-URI Too Large</code></strong>.</li>\n<li>The PDBe batch route <code>POST /pdb/compound/summary</code> is the robust pattern for enriching\n  many ligands at once.</li>\n<li>The UniProt ligand payload already provides a scaffold field, which can be used directly\n  to group retained ligands by shared core chemistry.</li>\n<li>In this live run, <strong>29</strong> EGFR-associated ligands were retained after\n  requiring a <strong>DrugBank</strong> cross-reference.</li>\n</ul>\n<span class=\"paragraph\">Live docs: <a href=\"https://www.ebi.ac.uk/pdbe/api/v2/doc/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.ebi.ac.uk/pdbe/api/v2/doc/</a></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YsxA",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
