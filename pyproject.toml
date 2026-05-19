@@ -1,0 +1,12 @@
+[project]
+name = "pdbe-api-tutorials"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "altair>=6.1.0",
+    "marimo>=0.23.6",
+    "pandas>=3.0.3",
+    "requests>=2.34.2",
+]
