@@ -4,6 +4,14 @@ __generated_with = "0.23.6"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/roshkjr/pdbe_api_tutorials/blob/main/notebooks/egfr_ligand_batch_analysis.py)
+    """)
+    return
+
+
 @app.cell
 def _():
     import altair as alt
