@@ -11,23 +11,23 @@ Use `uv` to sync the project environment:
 uv sync
 ```
 
-## Run the EGFR notebook
+## Run notebooks
 
 Open the notebook in marimo edit mode:
 
 ```bash
-uv run marimo edit notebooks/egfr_ligand_batch_analysis.py
+uv run marimo edit notebooks/<python_script.py>
 ```
 
 Run it as a read-only marimo app:
 
 ```bash
-uv run marimo run notebooks/egfr_ligand_batch_analysis.py
+uv run marimo run notebooks/<python_script.py>
 ```
 
-## Notes
+## Notebooks
 
-- The notebook uses the live PDBe API and requires network access.
-- The workflow starts from `TARGET_UNIPROT_ID = "P00533"` and focuses on EGFR-bound ligands.
-- The analysis highlights a `GET` request to fetch EGFR ligand data and a batch `POST`
-  request to fetch compound summaries.
+|Notebook|Description|Open in molab|
+|---------|-----------|-------------|
+|egfr_ligand_batch_analysis.py|Analysis of ligand bound structures of EGFR in the PDB|    [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/roshkjr/pdbe_api_tutorials/blob/main/notebooks/egfr_ligand_batch_analysis.py)|
+
