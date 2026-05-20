@@ -4,14 +4,6 @@ __generated_with = "0.23.6"
 app = marimo.App(width="medium")
 
 
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/roshkjr/pdbe_api_tutorials/blob/main/notebooks/egfr_ligand_batch_analysis.py)
-    """)
-    return
-
-
 @app.cell
 def _():
     import altair as alt
@@ -25,6 +17,14 @@ def _():
 
 
 @app.cell
+def _(mo):
+    mo.md(r"""
+    [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/roshkjr/pdbe_api_tutorials/blob/main/notebooks/egfr_ligand_batch_analysis.py)
+    """)
+    return
+
+
+@app.cell
 def _(mo, textwrap):
     mo.md(
         textwrap.dedent(
@@ -34,9 +34,9 @@ def _(mo, textwrap):
             This notebook follows analysis of ligands in therapeutic target **EGFR**
             (`UniProt: P00533`):
 
-            1. Fetch the ligands observed for EGFR with a **GET** request to the PDBe UniProt API.
-            2. Use a **POST** request to fetch compound summaries in batch from the PDBe compound API.
-            3. Keep only ligands with a **DrugBank** cross-reference and number of heavy atoms greate than 6
+            1. Fetch the ligands observed for EGFR with a **GET** request to the `/uniprot/ligands/` endpoint.
+            2. Use a **POST** request to fetch compound summaries in batch from `/pdb/compound/summary` endpoint.
+            3. Keep only ligands with a **DrugBank** cross-reference and number of heavy atoms greater than 6
             4. Summarize how often those ligands appear across EGFR structures.
             5. Group the retained ligands by Murcko scaffolds.
 
@@ -130,8 +130,8 @@ def _(pd, uniprot_ligands_summary):
 
 
 @app.cell
-def _(uniprot_ligands_json):
-    uniprot_ligands_json
+def _(TARGET_UNIPROT_ID, uniprot_ligands_json):
+    uniprot_ligands_json[TARGET_UNIPROT_ID][0]
     return
 
 
@@ -191,10 +191,7 @@ def _(mo, textwrap):
             ## 2. Why a large GET is brittle
 
             The compound summary API has a convenient batch **POST** route, but a comma-separated
-            ligand list also works in the path for **GET**.
-
-            That means people often try to keep batching with GET by making the path longer and
-            longer. The next cell intentionally does that once and captures the result.
+            ligand list also works in the path for **GET**. Let's see when it won't work.
             """
         )
     )
@@ -297,7 +294,7 @@ def _(compound_summary_summary, pd):
 
 @app.cell
 def _(compound_summary_json):
-    first_summary_keys = list(compound_summary_json.keys())[:2]
+    first_summary_keys = list(compound_summary_json.keys())[:1]
     raw_compound_preview = {
         key: compound_summary_json[key] for key in first_summary_keys
     }
@@ -433,7 +430,7 @@ def _(filtered_ligands_df, mo):
             ## 4. DrugBank-filtered ligands
 
             The table below keeps only ligands whose PDBe compound summary includes at least one
-            **DrugBank** cross-reference.
+            **DrugBank** cross-reference and at least 7 heavy atoms.
             """
         )
     filtered_ligands_message
@@ -507,8 +504,8 @@ def _(mo, textwrap):
             """
             ## 6. Analysis 2: scaffold grouping from the API
 
-            The UniProt ligand response includes a precomputed `scaffold_id` field.
-            This section groups the retained ligands by that API-provided scaffold instead of
+            The UniProt ligand response includes a precomputed `scaffold_id` field. This corresponds
+            to Murcko scaffold calcualted using RDKit. This section groups the retained ligands by their scaffolds.
             """
         )
     )
@@ -622,6 +619,33 @@ def _(DOCS_URL, TARGET_NAME, TARGET_UNIPROT_ID, filtered_ligands_df, mo):
         Live docs: {DOCS_URL}
         """
     )
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md("""
+    ## Try yourself
+
+    1. Find out which residues are mostly interacting with EGFR ligands across structures ?
+    2. What type of interactions are mostly found ?
+    3. Are there any mutated residues in the ligand binding sites?
+    """)
+    return
+
+
+@app.cell
+def _(mo):
+    mo.vstack([mo.md("## Hints"),
+    mo.accordion({
+        "Get all the ligands bound to an entry": "`/pdb/bound_molecules/<pdb_id>`",
+        "For ligand interactions in an entry": "`/pdb/bound_ligand_interactions/<pdb_id>/<chain_id>/<seq_id>`",
+        "For mutations see the endpoint": "`/uniprot/unipdb/<uniprot_id>`",
+        "For mapping between uniprot residues and PDB residues": "`/mappings/uniprot/<pdb_id>`",
+        }
+
+    )
+    ])
     return
 
 
